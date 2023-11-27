@@ -108,8 +108,8 @@ int main()
         printf("| %d %d %d |\n", a11, a12, a13);
         printf("| %d %d %d |\n", a21, a22, a23);
         printf("| %d %d %d |\n", a31, a32, a33);
-        int det = ((a11 * a22 * a33) + (a12 * a23 * a31) + (a11 * a22 * a32) ) - ((a31 * a22 * a13) + (a32 * a23 * a11) + (a33 * a21 * a12))
-        printf("Determinant of Your Matrix = %d", det)
+        int det = ((a11 * a22 * a33) + (a12 * a23 * a31) + (a11 * a22 * a32) ) - ((a31 * a22 * a13) + (a32 * a23 * a11) + (a33 * a21 * a12));
+        printf("Determinant of Your Matrix = %d", det);
     
 
     return 0;

@@ -23,8 +23,7 @@ int main()
         printf("Beta is = %f \n", root2);
         printf("Hope you enjoyed it ....");
         
-    }
-    if (dis<0){
+    } else if (dis<0){
         printf("\nThe Discrimant is Non-Positive\n");
         printf("So the roots are complex");
         
@@ -34,7 +33,7 @@ int main()
     int select;
     printf("\nEnter 2 for 2by2 and 3 for 3by3 Matrix: ");
     scanf("%d", &select);
-    if (select=2){
+    if (select==2){
         int a11;
         int a12;
         int a21;
@@ -57,7 +56,7 @@ int main()
     
     }
 
-    if (select=3){
+    if (select==3){
         int a11;
         int a12;
         int a13;

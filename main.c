@@ -3,6 +3,7 @@
 
 int main()
 {
+    /*This section help you to calcualte the root of the qudratic eqn*/
     int a;
     int b;
     int c;
@@ -28,6 +29,22 @@ int main()
         printf("So the roots are complex");
         
     }
+
+    /*This section help to find the determinant of the martix 2by2 and 3by3*/
+    int select;
+    printf("\n3by3 matrix format \n ");
+    printf("| a11  a12  a13 |\n");
+    printf("| a21  a22  a23 |\n");
+    printf("| a31  a32  a33 |\n");
+    printf("\n2by2 Martix Format\n");
+    printf("| a11 a12 |\n");
+    printf("| a21 a22 |\n");
+    printf("\nEnter 2 for 2by2 and 3 for 3by3 Matrix: ");
+    scanf("%d", &select);
+    if (select=2){
+        printf("It worked");
+    }
+    
 
     return 0;
 }

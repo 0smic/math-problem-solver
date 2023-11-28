@@ -56,22 +56,7 @@ int main()
     
     }
 
-    if (select==3){
-        int a11;
-        int a12;
-        int a13;
-        int a21;
-        int a22;
-        int a23;
-        int a31;
-        int a32;
-        int a33;
-        printf("\n3by3 matrix format \n");
-        printf("| a11  a12  a13 |\n");
-        printf("| a21  a22  a23 |\n");
-        printf("| a31  a32  a33 |\n");  
-        
-    } 
+
     if (select=3){
         int a11;
         int a12;

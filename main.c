@@ -1,6 +1,43 @@
 #include <stdio.h>
 #include <math.h>
 
+void sum_of_natural_no();  // This function will help you to find the sum natural no. from 0 to __
+void matrix(); // This function help to find the determinat of 2by2 matrix 3by3 matrix
+void root_of_quadraic(); // Used to find the root of a qudratic function
+
+int main() {
+    printf("Possible Calculations\n");
+    printf("Type the following no. to calculate\n");
+    printf("0 = calculate root of qudratic eqn\n");
+    printf("1 = calculate Determinant of matrix\n");
+    printf("2 = calculate the sum of natural number\n");
+    int main_select;
+    printf("Enter the No. corresponding to Calc: ");
+    scanf("%d", &main_select);
+    if (main_select == 0) {
+        printf("Root Calculations Begins\n");
+        root_of_quadraic();
+        
+    }else if (main_select == 1){
+        printf("Matric Calc Begins\n");
+        matrix();     
+    }else if (main_select == 2){
+        printf("Sum calc Begins \n");
+        sum_of_natural_no();
+    }
+    return 0;
+}
+
+
+void sum_of_natural_no(){
+    int n;
+    int sum;
+    printf("Enter the last term : ");
+    scanf("%d", &n);
+    sum = (n * (n+1))/2;
+    printf("Sum of number from 1 to %d is : %d", n,sum);
+}
+
 void matrix(){
     int select;
     printf("Format of Matrix to Find Determinant\n");
@@ -67,6 +104,7 @@ void matrix(){
         printf("Determinant of Your Matrix = %d", det);
     }
 }
+
 void root_of_quadraic() {
     int a;
     int b;
@@ -90,22 +128,4 @@ void root_of_quadraic() {
         printf("\nThe Discrimant is Non-Positive\n");
         printf("So the roots are complex");    
     }   
-}
-int main() {
-    printf("Possible Calculations\n");
-    printf("Type the following no. to calculate\n");
-    printf("0 = calculate root of qudratic eqn\n");
-    printf("1 = calculate Determinant of matrix\n");
-    int main_select;
-    printf("Enter the No. corresponding to Calc: ");
-    scanf("%d", &main_select);
-    if (main_select == 0) {
-        printf("Root Calculations Begins\n");
-        root_of_quadraic();
-        
-    }else if (main_select == 1){
-        printf("Matric Calc Begins\n");
-        matrix();     
-    }
-    return 0;
 }

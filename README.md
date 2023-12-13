@@ -1,5 +1,5 @@
 # Features
-- Can find the root of the quadratic eqn
-- Can find the Determinant of the Matrix
-
+- Root calc of quadratic eqn
+- Determinant of Matrix (3by3 , 2by2)
+- Sum of natural no
 

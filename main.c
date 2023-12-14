@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "matrix.h"
+#include "header/matrix.h"
 
 void sum_of_natural_no();  // This function will help you to find the sum natural no. from 0 to __
 void root_of_quadraic(); // Used to find the root of a qudratic function

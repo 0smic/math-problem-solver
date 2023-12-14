@@ -27,8 +27,6 @@ int main() {
     }
     return 0;
 }
-
-
 void sum_of_natural_no(){
     int n;
     int sum;
@@ -37,9 +35,6 @@ void sum_of_natural_no(){
     sum = (n * (n+1))/2;
     printf("Sum of number from 1 to %d is : %d", n,sum);
 }
-
-
-
 void root_of_quadraic() {
     int a;
     int b;
@@ -57,8 +52,7 @@ void root_of_quadraic() {
         double root1 = (-b + sqrt(dis))/(2*a);
         double root2 = (-b - sqrt(dis))/(2*a);
         printf("\nAplha is = %f \n", root1);
-        printf("Beta is = %f \n", root2);
-        
+        printf("Beta is = %f \n", root2);     
     } else if (dis<0){
         printf("\nThe Discrimant is Non-Positive\n");
         printf("So the roots are complex");    

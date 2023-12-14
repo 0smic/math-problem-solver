@@ -1,4 +1,4 @@
-#include "matrix.h"
+#include "header/matrix.h"
 #include <stdio.h>
 void Determinant(){
     int select;
